@@ -35,7 +35,7 @@ p {
     width: 250px;
     height: 200px;
     margin-left: 30%;
-    background-image: url(../webbb/photos/2023_03_12_19_46_IMG_5625.JPG);
+    background-image: url(../photos/2023_03_12_19_46_IMG_5625.JPG);
     background-position: center;
     background-size: cover;
     animation:slider 5s infinite linear;
@@ -45,7 +45,7 @@ p {
     width: 250px;
     height: 200px;
     margin-left: 30%;
-    background-image: url(../webbb/photos/PHOTO-2023-03-12-22-15-28.jpg);
+    background-image: url(../photos/PHOTO-2023-03-12-22-15-28.jpg);
     background-position: center;
     background-size: cover;
     animation:slider3 15s infinite linear;
@@ -55,26 +55,26 @@ p {
     width: 250px;
     height: 200px;
     margin-left: 30%;
-    background-image: url(../webbb/photos/2023_03_12_19_47_IMG_5627.JPG);
+    background-image: url(../photos/2023_03_12_19_47_IMG_5627.JPG);
     background-position: center;
     background-size: cover;
     animation:slider2 10s infinite linear;
     border-radius: 15px;
 }
 @keyframes slider{
-    0%{ background-image: url(../webbb/photos/2023_03_12_19_46_IMG_5625.JPG); }
-    75%{ background-image: url(../webbb/photos/2023_03_12_19_47_IMG_5626.JPG); }
+    0%{ background-image: url(../photos/2023_03_12_19_46_IMG_5625.JPG); }
+    75%{ background-image: url(./photos/2023_03_12_19_47_IMG_5626.JPG); }
 }
 @keyframes slider3{
-    0%{ background-image: url(../webbb/photos/PHOTO-2023-03-12-22-15-28.jpg); }
-    20%{ background-image: url(../webbb/photos/PHOTO-2023-03-12-22-15-24.jpg);}
-    40%{ background-image: url(../webbb/photos/PHOTO-2023-03-12-22-15-25\ 2.jpg);}
-    60%{ background-image: url(../webbb/photos/PHOTO-2023-03-12-22-15-28\ 2.jpg);}
-    80%{ background-image: url(../webbb/photos/PHOTO-2023-03-12-22-15-28\ 3.jpg);}
-    100%{ background-image: url(../webbb/photos/2023_03_12_19_47_IMG_5626.JPG); }
+    0%{ background-image: url(../photos/PHOTO-2023-03-12-22-15-28.jpg); }
+    20%{ background-image: url(../photos/PHOTO-2023-03-12-22-15-24.jpg);}
+    40%{ background-image: url(../photos/PHOTO-2023-03-12-22-15-25\ 2.jpg);}
+    60%{ background-image: url(../photos/PHOTO-2023-03-12-22-15-28\ 2.jpg);}
+    80%{ background-image: url(../photos/PHOTO-2023-03-12-22-15-28\ 3.jpg);}
+    100%{ background-image: url(../photos/2023_03_12_19_47_IMG_5626.JPG); }
 }
 @keyframes slider2{
-    0%{ background-image: url(../webbb/photos/2023_03_12_19_47_IMG_5627.JPG); }
+    0%{ background-image: url(../photos/2023_03_12_19_47_IMG_5627.JPG); }
     90%{ background-image: url(./photos/2023_03_12_19_47_IMG_5628.JPG);}
     
 }
